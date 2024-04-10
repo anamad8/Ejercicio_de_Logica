@@ -42,3 +42,11 @@ function resetForm() {
     document.getElementById("result").innerText = "";
 }
 
+//boton de cv
+const btnCV = document.querySelector('.btn-cv');
+
+btnCV.addEventListener('click', () => {
+
+    window.open('https://drive.google.com/file/d/1k2AQyak1V_mggzkComdnk3TjZLaq7d4-/view?usp=drive_link', '_blank');
+
+});
