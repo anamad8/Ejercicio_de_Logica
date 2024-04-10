@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #000;
+}
+
+#particles-js{
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+}
+
+.container{
+    position: relative;
+    z-index: 1;
+    opacity: 0.9;
+
+}
+
+.container h1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin: 25px 15px;
+    font-family: "Teko", sans-serif;
+    font-weight: 500;
+    color: #fff;
+
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-top: 50px;
+    align-items: center;
+    color: #fff;
+}
+
+.title input{
+    height: 30px;
+    width: 150px;
+    border-radius: 8px;
+    margin: 15px 10px;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 0px 8px;
+    color: #fff;
+}
+
+input[type=text] {
+    border: 3px solid #dadada;
+}
+
+.title p{
+    font-family: "Tilt Neon", sans-serif;
+    font-weight: 500;
+    color: #fff;
+    margin-top: 10px;
+}
+
+.btn{
+    display: flex;
+    flex-direction: column;
+    font-family: "Tilt Neon", sans-serif;
+    
+}
+
+.btn .btn-num{
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-size: 12px;
+    font-weight: 700;
+    background-color: #3a3dcf;
+    border:  none;
+    color: #fff;
+    margin-bottom: 5px;
+
+}
+
+.btn .btn-limpiar{
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-size: 12px;
+    font-weight: 700;
+    background-color: #be0c0c;
+    border:  none;
+    color: #fff;
+    margin-top: 5px;
+
+}
